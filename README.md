@@ -1,4 +1,7 @@
 # LPSE Data Downloader
+
+![image](https://github.com/user-attachments/assets/e186f73c-7b1c-4864-9bcf-fa4cdff3f543)
+
 Aplikasi untuk membantu dalam mengunduh data data di Website LPSE yang sumber/core prosesnya menggunakan https://github.com/wakataw/pyproc yang dibuat versi GUI nya
 
 ### Cara Penggunaan ###
