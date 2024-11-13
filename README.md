@@ -18,7 +18,6 @@ Aplikasi untuk membantu dalam mengunduh data data di Website LPSE yang sumber/co
 3. **Output Format** : Silahkan dipilih xlsx, csv atau json
 4. **Timeout (detik)** ; Waktu tunggu jika koneksi lambat , maksimal 90, minimal 30, default 60.
 5. **Keep Index** : Jika di centang maka akan membentuk file idx (sqlite3 database) saat proses download tidak akan dihapus ketika proses selesai. Hapus centang jika ingin menghapus database tersebut.
-6. **Resume** : Jika di centang maka argument ini untuk melanjutkan proses yang gagal (karena internet putus atau gangguan koneksi lainnya). Namun pastikan bahwa seluruh index sudah berhasil diunduh.
-7. **Tahun** : Tahun Anggaran data LPSE
-8. **Jenis** : Tender dan Non Tender ( Pilih salah satu ).
+6. **Tahun** : Tahun Anggaran data LPSE
+7. **Jenis** : Tender dan Non Tender ( Pilih salah satu ).
 
