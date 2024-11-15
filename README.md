@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/91f92599-cefa-48ea-bb4c-b1f147f5d2f1) 
-
 LPSE Data Downloader
 
 ![image](https://github.com/user-attachments/assets/7bfaf814-bb67-4b1c-945e-f3f616055056)
