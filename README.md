@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/52fe21c9-f1f5-404a-9f4a-e9bab4538ce1)
+![image](https://github.com/user-attachments/assets/65876ba7-b0ab-49db-8182-1e646b278252)
 
 Aplikasi untuk membantu dalam mengunduh data data di Website LPSE yang sumber/core prosesnya menggunakan https://github.com/wakataw/pyproc yang dibuat versi GUI nya
 
@@ -14,9 +14,8 @@ B. Pengaturan Download
 1. Tahun: Pilih tahun anggaran yang akan diunduh 
 2. Jenis: Pilih jenis lelang (Tender/Non-Tender) 
 3. Workers: Jumlah worker untuk proses download (10-100) 
-4. Chunk: Jumlah data yang diproses per batch (10-100) 
-5. Format: Format file output (xlsx/csv/json) 
-6. Timeout: Batas waktu tunggu response server (30-90 detik) 
+4. Format: Format file output (xlsx/csv/json) 
+5. Timeout: Batas waktu tunggu response server (500-5000 detik) 
 
 C. Opsi Tambahan 
 
