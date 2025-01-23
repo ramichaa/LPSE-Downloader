@@ -17,7 +17,7 @@ B. Pengaturan Download
 3. Workers: Jumlah worker untuk proses download (10-100)
 4. Chunk: Jumlah data yang diproses per batch (10-100) 
 5. Format: Format file output (xlsx/csv/json) 
-6. Timeout: Batas waktu tunggu response server (500-5000 detik) 
+6. Timeout: Batas waktu tunggu response server (30-90 detik) 
 
 C. Opsi Tambahan 
 
