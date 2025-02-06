@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/511bd5ed-977a-48c5-801c-249337cf01ff)
+![image](https://github.com/user-attachments/assets/60dffbc5-d45f-4949-80e4-1d0a14713d8f)
 
 Aplikasi untuk membantu dalam mengunduh data data di Website LPSE yang sumber/core prosesnya menggunakan https://github.com/wakataw/pyproc yang dibuat versi GUI nya
 
