@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/60dffbc5-d45f-4949-80e4-1d0a14713d8f)
+![image](https://github.com/user-attachments/assets/eb2cf2d4-269e-4d8d-9b25-f9f87a5dbf1b)
 
 Aplikasi untuk membantu dalam mengunduh data data di Website LPSE yang sumber/core prosesnya menggunakan https://github.com/wakataw/pyproc yang dibuat versi GUI nya
 
@@ -8,7 +8,7 @@ A. Input URL LPSE
 
 Cara memasukkan URL LPSE: 
 1. Input CSV: Klik tombol "Pilih CSV" untuk memilih file CSV yang berisi daftar URL LPSE
-2. Input Manual: Ketik atau Copy-Paste URL LPSE, contoh : https://lpse.pu.go.id
+2. Input Manual: Ketik atau Copy-Paste URL LPSE, contoh : https://spse.inaproc.id/pu
 
 B. Pengaturan Download 
 
