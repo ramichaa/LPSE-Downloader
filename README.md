@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/eb2cf2d4-269e-4d8d-9b25-f9f87a5dbf1b)
+<img width="700" height="288" alt="image" src="https://github.com/user-attachments/assets/08ee6b09-7f81-407c-a407-a04147b4e120" />
 
 Aplikasi untuk membantu dalam mengunduh data data di Website LPSE yang sumber/core prosesnya menggunakan https://github.com/wakataw/pyproc yang dibuat versi GUI nya
 
@@ -12,12 +12,11 @@ Cara memasukkan URL LPSE:
 
 B. Pengaturan Download 
 
-1. Tahun: Pilih tahun anggaran yang akan diunduh 
-2. Jenis: Pilih jenis lelang (Tender/Non-Tender) 
-3. Workers: Jumlah worker untuk proses download (10-100)
-4. Chunk: Jumlah data yang diproses per batch (10-100) 
-5. Format: Format file output (xlsx/csv/json) 
-6. Timeout: Batas waktu tunggu response server (30-90 detik) 
+1. Tahun: Pilih tahun anggaran yang akan diunduh  
+2. Workers: Jumlah worker untuk proses download (10-100)
+3. Chunk: Jumlah data yang diproses per batch (10-100) 
+4. Format: Format file output (xlsx/csv/json) 
+5. Timeout: Batas waktu tunggu response server (30-90 detik) 
 
 C. Opsi Tambahan 
 
@@ -27,9 +26,10 @@ C. Opsi Tambahan
 D. Proses Download 
 
 1. Klik tombol "Start Download" untuk memulai 
-2. Progress bar akan menunjukkan kemajuan download 
-3. Log output akan menampilkan detail proses 
-4. Gunakan tombol "Stop Download" untuk menghentikan proses 
+2. Proses akan secara langsung unduh untuk data "Tender" dan "Non Tender"
+3. Progress bar akan menunjukkan kemajuan download 
+4. Log output akan menampilkan detail proses 
+5. Gunakan tombol "Stop Download" untuk menghentikan proses 
 
 E. Format File CSV 
 
