@@ -1,44 +1,49 @@
-<img width="700" height="288" alt="image" src="https://github.com/user-attachments/assets/08ee6b09-7f81-407c-a407-a04147b4e120" />
+<img width="697" height="296" alt="image" src="https://github.com/user-attachments/assets/91a427d5-4ada-414a-9784-ebbd54c0cb8d" />
 
 Aplikasi untuk membantu dalam mengunduh data data di Website LPSE yang sumber/core prosesnya menggunakan https://github.com/wakataw/pyproc yang dibuat versi GUI nya
 
-Petunjuk Penggunaan :
+Petunjuk Penggunaan 
+1. Menentukan LPSE 
+Gunakan salah satu cara berikut: 
+Nama instansi, contoh: kutai barat. 
+Kode instansi, contoh: kutaibaratkab atau kubar. 
+URL lengkap, contoh: https://spse.inaproc.id/mahakamulukab. 
+Klik Pilih CSV atau seret file CSV ke jendela aplikasi. 
+Nama instansi dicocokkan otomatis dengan direktori resmi Portal SPSE Indonesia. Fitur ini berlaku untuk kota, kabupaten, provinsi, kementerian, lembaga, dan instansi lain yang terdaftar. 
+Jika nama wilayah memiliki kota dan kabupaten dengan nama yang sama, tuliskan jenis wilayah secara lengkap. Contoh: Kota Semarang atau Kabupaten Semarang. Direktori disimpan sementara selama tujuh hari agar pencarian berikutnya lebih cepat. 
 
-A. Input URL LPSE 
+2. Format File CSV 
+Gunakan pemisah titik koma (;) atau koma (,). Kolom pertama berisi alamat/nama LPSE dan kolom kedua berisi nama file output yang bersifat opsional. 
+https://spse.inaproc.id/kutaibaratkab;LPSE_Kutai_Barat
+mahakamulukab;LPSE_Mahakam_Ulu
+         
+Baris judul seperti url, host, atau lpse_host akan dilewati. URL ganda hanya diproses satu kali. 
 
-Cara memasukkan URL LPSE: 
-1. Input CSV: Klik tombol "Pilih CSV" untuk memilih file CSV yang berisi daftar URL LPSE
-2. Input Manual: Ketik atau Copy-Paste URL LPSE, contoh : https://spse.inaproc.id/pu
+3. Pengaturan Download 
+Tahun: tahun anggaran paket yang akan diambil. 
+Worker: jumlah proses detail yang berjalan bersamaan. 
+Chunk: jumlah paket yang diproses dalam satu kelompok. 
+Delay: jeda antarhalaman indeks agar server tidak terbebani. 
+Format: jenis file hasil, seperti XLSX, CSV, atau JSON. 
+Timeout: batas waktu menunggu respons server LPSE. 
+Keep Index: menyimpan indeks paket untuk proses berikutnya. 
+Resume: melanjutkan data yang sudah pernah diproses. 
 
-B. Pengaturan Download 
+4. Menjalankan Proses 
+Klik Start. 
+Aplikasi memproses data Tender terlebih dahulu. 
+Jika Tender selesai tanpa kegagalan target, aplikasi otomatis melanjutkan ke Non-Tender. 
+Panel Log Proses tampil selama download dan otomatis tersembunyi setelah seluruh proses selesai. 
+Klik Stop untuk meminta proses dihentikan dengan aman. 
 
-1. Tahun: Pilih tahun anggaran yang akan diunduh  
-2. Workers: Jumlah worker untuk proses download (10-100)
-3. Chunk: Jumlah data yang diproses per batch (10-100) 
-4. Format: Format file output (xlsx/csv/json) 
-5. Timeout: Batas waktu tunggu response server (30-90 detik) 
+5. Jika Terjadi Masalah 
+Pastikan alamat LPSE benar dan dapat dibuka melalui browser. 
+Naikkan Timeout jika koneksi atau server LPSE lambat. 
+Kurangi Worker jika server sering menolak atau memutus koneksi. 
+Periksa pesan pada Log Proses untuk mengetahui target yang gagal. 
+Data tidak lengkap dapat terjadi jika informasi sumber di LPSE memang belum tersedia.  
 
-C. Opsi Tambahan 
-
-1. Keep Index: Menyimpan file index untuk melanjutkan download yang terhenti 
-2. Resume: Melanjutkan download dari posisi terakhir (hanya aktif jika Keep Index dicentang) 
-
-D. Proses Download 
-
-1. Klik tombol "Start Download" untuk memulai 
-2. Proses akan secara langsung unduh untuk data "Tender" dan "Non Tender"
-3. Progress bar akan menunjukkan kemajuan download 
-4. Log output akan menampilkan detail proses 
-5. Gunakan tombol "Stop Download" untuk menghentikan proses 
-
-E. Format File CSV 
-
-1. Jika menggunakan input CSV, format file harus: 
-2. Menggunakan separator titik koma (;) 
-   Kolom 1: URL LPSE 
-   Kolom 2: Nama file output 
-
-F. Tips 
+6. Tips 
 
 1. Gunakan workers lebih sedikit (10-20) untuk koneksi lambat 
 2. Aktifkan Keep Index untuk download data besar 
